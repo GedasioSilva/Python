@@ -25,3 +25,8 @@
 # senha = input("Digite sua senhar: ")
 # print(f" Seu loguin é : {loguin} sua Senhar é {senha}")
 
+nome = str(input("Qual é o seu nome: " ))
+idade = str(input('Qual é a sua idade: '))
+cidade = input('Onde você mora: ')
+print(nome)
+print('seu Nome ' + nome + ' e  a sua Idade ' + idade + ' onde vc mora ' + cidade)
