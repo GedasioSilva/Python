@@ -26,7 +26,7 @@ def calculadora():
                 
             elif escolha == '4':
                 if number2 != 0:
-                    resultado = number1 + number2
+                    resultado = number1 / number2
                     print(f"O Resultado da soma foi: {resultado}")
                 else:
                     print("Divisão por 0 Não é Permitida")            
