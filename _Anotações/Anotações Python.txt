@@ -1,1 +1,15 @@
 Curso De Python Udemy
+explicação de função,Modulo,package,Library
+
+exemplo um produto
+função -> onde quardamos uma classe de um produto
+
+exempro dois ou mais produtos
+Modulo -> onde guardamos duas ou mais funções
+
+tipo uma sessão do mercado
+package -> guarda diversos Módulos
+
+exemplo o Mercado onde guarda tudo
+Library -> guarda diversas  package 
+
