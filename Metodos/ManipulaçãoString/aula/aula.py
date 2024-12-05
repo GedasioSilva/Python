@@ -29,6 +29,12 @@ print(frase.find('linguagem'))
 #len(): Retorna o tamanho de um objeto (string, lista, dicionário, etc.).
 print(len([1, 2, 3]))  # Saída: 3
 
+#Si necesitas contar caracteres específicos, puedes usar el método .count():
+texto = "Hola, mundo!"
+caracter_a_contar = "o"
+cantidad = texto.count(caracter_a_contar)
+print(f"El carácter '{caracter_a_contar}' aparece {cantidad} veces.")
+
 #enumerate(): Retorna índices e valores de um iterável.
 for i, v in enumerate(["a", "b"]):
     print(i, v)

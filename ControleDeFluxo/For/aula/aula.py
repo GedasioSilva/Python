@@ -13,3 +13,5 @@ palavra = 'Espetacular'
 for letra in palavra: #dessa forma imprime letra por letra
     print(f'{letra} Esta dentro da Palavra {palavra}')
     
+
+  
