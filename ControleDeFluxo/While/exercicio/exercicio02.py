@@ -27,3 +27,10 @@ while valor1 > 20:
         valor1 = (valor1 * 0.10) + valor1 
         print(f'o valor final do seu produto será de R$:{valor1}')
         break   
+    
+    
+contador = 0
+while contador < 5:
+    print(f"Contador: {contador}")
+    contador += 1  # Incrementa o contador
+    
