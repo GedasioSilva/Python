@@ -11,3 +11,4 @@ print(" ")
 #pega uma string e divide como se fosse um array
 var = list('dasio')
 print(var)
+
