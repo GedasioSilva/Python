@@ -9,12 +9,12 @@ def calculadora():
         escolha = input("Digite a operação escolhida: (1-2-3-4): " )
         
         if(escolha in ['1','2','3','4']):
-            number1 = float(input("Digite o Primeiro Número "))
-            number2 = float(input("Digite o Segundo Número "))
+            number1 = float(input("Digite o Primeiro Número: "))
+            number2 = float(input("Digite o Segundo Número: "))
 
             if escolha == '1':
                 resultado = number1 + number2
-                print(f"O Resultado da soma foi:  {resultado}")
+                print("O Resultado da soma foi: {:.1f}".format(resultado))
             
             elif escolha == '2':
                 resultado = number1 - number2
@@ -22,16 +22,17 @@ def calculadora():
                 
             elif escolha == '3':
                 resultado = number1 * number2
-                print(f"O Resultado da Multiplicação  foi: {resultado}")
+                print("O Resultado da Multiplicação  foi {:.2f}".format(resultado))
                 
             elif escolha == '4':
                 if number2 != 0:
                     resultado = number1 / number2
-                    print(f"O Resultado da soma foi: {resultado}")
+                    print("O Resultado é {:.2f}".format(resultado))
                 else:
                     print("Divisão por 0 Não é Permitida")            
         else:
             print("Escolha Invalida. Por favor , tente Novamente")
 
 
-calculadora()        
+calculadora()
+#print("O valor é {:.1f}".format(resultado))        

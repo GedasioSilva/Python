@@ -1,5 +1,5 @@
 #receber os dados e guardar em uma array
-from array import array
+from array import array #importando o array
 
 #crindo uma array
 dados = array('i',[1,2,3,4,5,6,7,8,9,10])
@@ -47,7 +47,8 @@ itensarray = len(valoresinseridos)
 resultado = sum(valoresinseridos) / float(len(valoresinseridos))
 print("O valor é {:.1f}".format(resultado)) #{:.1f} controla as casas decimais
 #print( sum(valoresinseridos) / float(len(vetor)) ) [2]
-  
+
+print("Quarto")  
 
      
     
