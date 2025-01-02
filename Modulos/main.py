@@ -13,3 +13,5 @@ multi() #pegando pelo import a função multi
 #utlizar essa forma pra chama a função dentro de cadastro no caso cliente
 from items.cadastro import cliente
 cliente()
+
+find_index(list1)
