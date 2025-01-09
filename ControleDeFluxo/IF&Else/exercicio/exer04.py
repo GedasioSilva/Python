@@ -6,7 +6,3 @@ if numero % 2 == 0:
 else:
     print("Impar") 
     
-#verificar se o número é primo quando ele é divisivio por ele mesmo
-
-numeroinformado = int(input("Digite o numero:"))
-
