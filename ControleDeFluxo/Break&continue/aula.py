@@ -4,7 +4,8 @@ for numero in range(10):
     print(numero)
 
 print(" ")   
-    
+
+#pular o número 2    
 for numero1 in range(5):
     if numero1 == 2:
         continue
