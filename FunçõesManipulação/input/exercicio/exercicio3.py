@@ -15,9 +15,6 @@ if cpfconsulta == 12317566409:
         input("informe email pra redefinir senhar ")    
         emailRedefinirsenhar = input
 
-
-
-
 primeiroNome = str(nomeCompleto[0]).upper()
 segundoNome = str(nomeCompleto[1]).upper()       
 print(f'Primeiro nome {primeiroNome} segundo {segundoNome}')

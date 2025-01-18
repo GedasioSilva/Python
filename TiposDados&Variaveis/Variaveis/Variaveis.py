@@ -22,3 +22,7 @@ print("Sua nota foi " + "{:.1f}".format(resultado))
 print(12,34,sep=" - ",end='\r\n') #sep é o escapaço
 print(10,40,sep=" ")
 print("ola")
+
+#dessa o valor maior_de_idade recebe um valor boleano tru ou false
+maior_de_idade = idade >= 18
+print(f'idade {idade} é maior de idade \n{maior_de_idade}')

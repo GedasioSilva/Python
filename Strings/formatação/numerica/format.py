@@ -25,3 +25,12 @@ print(texto.format(dollar))
 #o format esta recebendo os valores 
 texto01 = "Meu nome é {fname} , eu tenho {idade}".format(fname="john" , idade = 29)
 print(texto01)
+
+print(" ")
+
+a = 'AAAA'
+b = 'B'
+c = 1.1
+string = 'a={} b={} c={}' #string ta pegando os valores de a b e c
+formato = string.format(a,b,c)
+print(formato)
