@@ -1,3 +1,4 @@
+#convertendo os números
 x = str(3) #colocando como string
 y = int(4) #vai ser sempre int 
 z = float(5) #vai ser sempre Float
@@ -17,4 +18,6 @@ cidade = 'SãoPaulo'
 
 print(' o ' + nome + ' tem ' + str(idade) + 'anos de idade e mora na cidade de ' + cidade)
 
-
+print(int('1'),type(int('1'))) #convertendo pra int
+print(type(float('1') + 1)) #convertendo pra float
+print(str(11) + 'b') #convertendo pra String
