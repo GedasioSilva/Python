@@ -34,3 +34,12 @@ c = 1.1
 string = 'a={} b={} c={}' #string ta pegando os valores de a b e c
 formato = string.format(a,b,c)
 print(formato)
+
+
+#interpolação Básica de Strings
+
+nome = 'Luiz'
+preco = 1000.95897643
+variavel = '%s, o preco é R$%.2f' %(nome,preco)
+print(variavel)
+

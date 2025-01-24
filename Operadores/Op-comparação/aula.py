@@ -55,3 +55,17 @@ print("----------------------------")
 y = 10
 u = "10"
 print(y == int(u))
+
+#outros exemplos de operadores de comparação
+print("Outros Exemplos")
+
+maior = 2 > 1
+print(maior)
+menor = 1 < 2 #1 é menor que 2
+print (menor)
+menor_ou_igual = 2 <= 2 #é igual a 2 ou menor
+print(menor_ou_igual)
+igual = 'a' == 'a' #igual 
+print(igual)
+diferente = 'a' != 'b' #diferente
+print(diferente)

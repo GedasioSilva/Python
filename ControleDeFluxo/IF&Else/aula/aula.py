@@ -8,4 +8,4 @@ elif velocidade <= 60:
     print("Favor Dirigir acima de 80Km")
 else:
     print("Velocidade Permitida")    
-        
+
