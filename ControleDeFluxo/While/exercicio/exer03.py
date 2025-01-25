@@ -11,4 +11,13 @@ else:
              print("Obrigado Temos Sua Fruta")
     
 
-    
+condicao = True
+
+while condicao:
+    nome = input('Qual é o seu Nome: ')
+    print(f'Seu nome é: {nome}')
+    print(f"Ou Digite sair pra Acabar")
+
+    if nome == 'sair':
+        break
+print('Acabou')    

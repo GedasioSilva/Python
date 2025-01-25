@@ -14,3 +14,13 @@ while media <= 7:
     print("Media ainda é menor: " , media )  
     media = media + 1
     continue 
+
+
+contador = 0
+while contador <= 10:
+    contador += 1
+    contador = 8 #se contador chear em 8 acabou
+    print(contador)
+    break
+
+print('acabou')    
