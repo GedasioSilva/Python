@@ -19,11 +19,7 @@ else:
 
 #quando der um erro o sistema mostrar o erro ai pegamos o error e colocamos dentro do except
 
-print(" ")
+
       
-try:
-        letras = ['a','b','c']
-        print(letras[3])
-except IndexError:
-        print('index não Existe')                    
+                 
 

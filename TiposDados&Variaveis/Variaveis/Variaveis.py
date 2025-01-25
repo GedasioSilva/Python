@@ -26,3 +26,11 @@ print("ola")
 #dessa o valor maior_de_idade recebe um valor boleano tru ou false
 maior_de_idade = idade >= 18
 print(f'idade {idade} é maior de idade \n{maior_de_idade}')
+
+#identidade de um objeto é quando uma variavel tem um código
+#tipo cada conteudo de uma variavel tem um código pra ser chamado
+#quando a pessoa chamar a variavel
+v1 = 'a'
+v2 = 'a'
+print(id(v1))
+print(id(v2))

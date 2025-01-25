@@ -18,7 +18,7 @@ numeroFlutuante = 7.9
 print(type(numeroFlutuante))
 
 valores = numeroInteiro + numeroFlutuante
-print("{:.1f}".format(valores))
+print(f"{valores:.1f}")
 
 #Tipo de Dados boleanos recebe os valores como True e False
 
