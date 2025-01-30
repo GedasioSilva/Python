@@ -14,19 +14,6 @@ print(itens[0]) #itens da posição zero item1 e item2
 print(itens[0][1]) #itens da posição 0 do index 1 item2
 
 print(" ")
-#Extraindo variáveis de Listas
-produtos = ['Arroz','Feijão','Laranja','banana']
-item1 ,item2 , item3 ,*outros = produtos #variaveis recebendo os index
-#tipo a lista produtos tem 4 itens eu tenho 3 variaveis a que sobra fica
-#em outros se sobrar mais de uma fica em outros e outros vira uma lista
-print(item1)
-print(item2)
-print(item3)
-print(outros)
-
-print(" ")
-#loops dentro de itens de uma Listra
-
 valores = [50,80,110,150,170]
 for x in valores:
     print(F'O valor final do Produto é: {x}')
@@ -40,4 +27,21 @@ cor = input("Digite a cor que deseja: ").lower()
 if cor in cores:
     print('temos essa cor em Estoque')
 else:
-    print("Não temos essa cor em Estoque")        
+    print("Não temos essa cor em Estoque")
+
+
+#trabalhando com lista dentro de lista
+
+salas = [
+    ['Maria','Helena'],
+    ['Elaine'],
+    ['Luiz','João','Eduarda',(0,10,20,30,40)]
+]
+print(salas[2][2]) #buscando o index Eduarda
+print(salas[2][3][2])#buscando na linha 3 o index 4 valor 2
+#no caso o retorno é o 20
+
+for sala in salas:
+    print(f'A sala é {sala}')
+    for aluno in sala:
+        print(aluno)
