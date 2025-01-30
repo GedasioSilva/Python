@@ -12,6 +12,29 @@ print(" ")
 palavra = 'Espetacular'
 for letra in palavra: #dessa forma imprime letra por letra
     print(f'{letra} Esta dentro da Palavra {palavra}')
-    
 
-  
+print(" ")    
+#como o for funciona
+#iteralve -> str rang ,etc (_iter_)
+#iterador -> quem sae entregar um valor por vez
+#next -> entrega  o proximo valor 
+#iter -> me entregue seu iterador
+
+#string é o iteral
+texto = iter('Luiz') #_iter_()  
+print(texto.__next__()) #entregar o primeiro item da string
+print(next(texto)) #entregar o segundo item da string
+print(texto.__next__()) #entregar o segundo item da string
+print(next(texto)) #entregar o segundo item da string
+
+#se chamar mais que a contidade de itens da error
+#isso aqui mostra como o for funciona
+
+iterador = iter(texto) #iterator
+
+while True: #while infinito esperando uma condição pra parar
+    try: #tente executar
+        letra = next(iterador) #vai chamar o proximo intem da variavel
+        print(letra) #vai mostra o proximo item da string
+    except StopIteration: #verifica se dar esse error se der
+        break #pare o sistema    

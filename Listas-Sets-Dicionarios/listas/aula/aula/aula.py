@@ -10,15 +10,12 @@ cidades = ['Rio de janeiro','São Paulo','Salvador']
 
 cidades[0] = "Recife" #colocando o item 0 como recife    
 
-for local in cidades:
-    print(local)    
-    
 numeros = [1,2,3,4]
 print(numeros)
 
-print(" ")
 
-print("Append ")
+print(" ")
+print("Append")
 ##append(): Adiciona  "um" elemento ao final da lista.
 cidades.append('Santa catarina')
 print(cidades)
@@ -37,11 +34,13 @@ print("Inserte")
 cidades.insert(1,'Rio Grande do sul')
 print(cidades)
 
+
 print(" ")
 print("pop")
-
-cidades.pop(0) #retirando o da posição 0
-print(cidades)
+#pop remove o último porém mostra oque foi removido
+#retirando o último elemento  da lista
+#se você não passar o index o pop deleta o último 
+print(cidades.pop()) #mostrando oque foi removido
 
 print(" ")
 print("sort")
@@ -54,3 +53,9 @@ print("Extendes")
 #extend(): Adiciona múltiplos elementos de outra lista ou iterável.
 cidades.extend(['Maceio','Jaboatão'])
 print(cidades)
+
+#clear é pra limprar a lista apagando os registros
+#cidades.clear()
+
+for cidade in cidades:
+    print(cidade)
