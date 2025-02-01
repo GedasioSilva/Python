@@ -1,14 +1,11 @@
 #um sistema que inserir lista e apagar itens dentro de uma lista
 #onde o usuario informa oque deseja realisar
-import os
-
 listaCompras =[]
 while True:
     print("Selecione uma Opção")
     operacao = input("[i]inserir [a]pagar [l]istar: ").lower()
 
     if operacao == 'i':
-        os.system('clear')
         inserir = input("Inserir: ")
         listaCompras.append(inserir)
 

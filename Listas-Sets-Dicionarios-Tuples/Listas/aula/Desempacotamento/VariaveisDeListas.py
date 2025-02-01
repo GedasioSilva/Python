@@ -26,3 +26,14 @@ print(nota1,restoValores)
 notasemestre = [8,9,10]
 primeiranota,*_,terceiranota = notasemestre
 print(primeiranota,terceiranota)
+
+#outra forma de pula um elemento e pegar apenas os escolhidos
+#desempacotamento em chamadas 
+#de métodos e funções
+
+lista = ['Maria','Helena',1,2,3,'Eduarda']
+
+#dessa forma eu pego os index maria helena 
+# pulo os números e pego Eduarda na última variavel
+p,b,*_,u = lista
+print(p,b,u)
