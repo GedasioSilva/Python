@@ -7,7 +7,7 @@ def boas_vindas(nome,quantidade=6):
     print(f'Óla {(nome).capitalize()}')
     print(f'Temos {str(quantidade)} De Laptops em Estoque')
     
-#boas_vindas("dasio")
+boas_vindas("dasio")
 
 #tipos de funções realizam tarefas ou retornam valores
 
@@ -24,3 +24,8 @@ y = cliente2("José") #se você quiser reutilizar utilizar o return
 
 print(x)
 print(y)
+
+def imprimir(a,b,c):
+    print(a,b,c)
+
+imprimir(1,2,3)
