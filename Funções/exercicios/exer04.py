@@ -9,3 +9,10 @@ def quadrado(n3):
 
 #o quadrado é pegaro numero de entrada multiplicar por 2 e depois por ele mesmo
 print(f'O Quadrado do dobro do numero {n3} é {quadrado(n3)}')
+
+print(" ")
+'''
+crie funções que duplicam , triplicam e quadruplicam
+o número recebido como parâmetro
+'''
+
