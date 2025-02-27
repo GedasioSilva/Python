@@ -20,4 +20,15 @@ print(frutas2)
 #o iten é pra mostra os iten que tem a letra b 
 frutas2 = [iten for iten in frutas1 if 'm' in iten]
 
-print(frutas2)    
+print(frutas2)
+print(" ")
+
+#Outros Exemplos de Lista Comprehension em Python
+#para fazer rodar um loop até 10 onde cada giro o numero += 1
+lista = [numero for numero in range(10)]
+print(lista)
+
+#multiplicando cada Número por 2 começa com zero ai depois vai multiplicando por 2
+lista2 = [numero * 2 for numero in range(10)]
+print(lista2)
+
