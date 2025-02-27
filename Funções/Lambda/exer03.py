@@ -10,4 +10,20 @@ resultado = []
 for numero in numeros:
     resultado.append(quadrado(numero))
 
-print(resultado)        
+print(resultado)
+
+print("")
+#Utilizando lamda pra ordenar uma lista
+
+lista = [
+    {'nome': 'Luiz', 'sobrenome': 'miranda'},
+    {'nome': 'Maria', 'sobrenome': 'Oliveira'},
+    {'nome': 'Daniel', 'sobrenome': 'Silva'},
+    {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
+    {'nome': 'Aline', 'sobrenome': 'Souza'},
+]
+
+lista.sort(key=lambda item:item['nome'])
+
+for item in lista:
+    print(item)

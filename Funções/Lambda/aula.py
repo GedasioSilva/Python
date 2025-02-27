@@ -21,3 +21,6 @@ def somar(x):
     return func2(x) * 4 #multiplica o valor que foi passado por 4
 
 print(somar(2))
+
+
+

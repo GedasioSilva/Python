@@ -26,3 +26,22 @@ lista_de_listas_de_inteiros = [
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
 
+def encontra_primeiro_duplicado(lista_de_inteiros):
+    numeros_checados = set() #criando um set vazio
+    primeiro_duplicado = -1
+    for numero in lista_de_inteiros: #isso é a lista de números
+        if numero in numeros_checados:#verifica se o numero já esta dentro da set
+            primeiro_duplicado = numero
+            break
+
+        numeros_checados.add(numero) #a lista ta recebendo cada interação do Loop
+
+    print()
+    print()
+    return primeiro_duplicado
+
+for lista in lista_de_listas_de_inteiros: #lista da recebendo os dados 
+    print(
+        lista,
+        encontra_primeiro_duplicado(lista) #passando todos os dado pra dentro da função
+    )

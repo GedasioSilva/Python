@@ -26,3 +26,20 @@ somanotas = list(map(lambda x: x % 2 == 0,notas))
 print(somanotas)
 
 print(" ")
+#Aplica uma função a todos os elementos de uma lista.
+
+numeros2 = [1,2,3,4,5]
+quadrados = list(map(lambda x: x ** 2,numeros2))
+print(quadrados)
+
+print(" ")
+#Ordena uma lista de dicionários pelo valor da chave idade.
+
+pessoas = [
+     {"nome": "Ana", "idade": 25},
+    {"nome": "Bruno", "idade": 20},
+    {"nome": "Carlos", "idade": 30}
+]
+
+ordenado = sorted(pessoas,key=lambda x :x['idade'])
+print(ordenado)
