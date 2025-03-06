@@ -14,4 +14,3 @@ multi() #pegando pelo import a função multi
 from items.cadastro import cliente
 cliente()
 
-find_index(list1)
