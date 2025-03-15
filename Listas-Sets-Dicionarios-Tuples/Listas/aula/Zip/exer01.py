@@ -21,8 +21,12 @@ for cidade_estado in cidade_estados:
 print(10*'-','A Forma do Professor Responder',10*'-')
 
 def zipper(lista1,lista2): #a função recebendo as Duas Listas
-    print(min(len(lista1),len(lista2))) #mosta qual das duas tem o menor index
+    intervalo_maximo = min(len(lista1),len(lista2))#mosta qual das duas tem o menor index
+    return [ #não pode quebrar a linha no retorno
+        #ta pegando o index da lista 1 e 2 até o valor maxino que é 3
+       (lista1[i],lista2[i]) for i in range(intervalo_maximo) 
+    ]
 
 l1 = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 l2 = ['BA', 'SP', 'MG', 'RJ']
-zipper(l1,l2)  #a função passando as duas listas  
+print(zipper(l1,l2))  #a função passando as duas listas  
