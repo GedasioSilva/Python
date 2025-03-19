@@ -11,3 +11,5 @@ alunos = [
     {'nome': 'André', 'nota': 'A'},
     {'nome': 'Anderson', 'nota': 'C'},
 ]
+
+alunos.sort()
