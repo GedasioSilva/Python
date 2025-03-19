@@ -25,7 +25,22 @@ frame_corpo = Frame(janela,width=235,height=268)
 frame_corpo.grid(row=1,column=0)
 
 #Criando botões
-b_1 = Button(frame_corpo, text="C",width=11, height=2)
+b_1 = Button(frame_corpo, text="C",width=11, height=2,bg=cor4 , font=('Ivy 13 bold'),relief=RAISED , overrelief=RIDGE)
 b_1.place(x=0,y=0) #posições do eixo 
+b_2 = Button(frame_corpo, text="%",width=6, height=2 , bg=cor4 , font=('Ivy 13 bold'),relief=RAISED , overrelief=RIDGE)
+b_2.place(x=118,y=0) #posições do eixo 
+b_3 = Button(frame_corpo, text="/",width=6, height=2,bg=cor5,fg=cor2 , font=('Ivy 13 bold'),relief=RAISED , overrelief=RIDGE)
+b_3.place(x=177,y=0) #posições do eixo 
+
+
+
+b_4 = Button(frame_corpo, text="%",width=6, height=2 , bg=cor4 , font=('Ivy 13 bold'),relief=RAISED , overrelief=RIDGE)
+b_4.place(x=0,y=0) #posições do eixo 
+b_5 = Button(frame_corpo, text="/",width=6, height=2,bg=cor5,fg=cor2 , font=('Ivy 13 bold'),relief=RAISED , overrelief=RIDGE)
+b_5.place(x=0,y=0) #posições do eixo 
+b_6 = Button(frame_corpo, text="/",width=6, height=2,bg=cor5,fg=cor2 , font=('Ivy 13 bold'),relief=RAISED , overrelief=RIDGE)
+b_6.place(x=0,y=0) #posições do eixo
+b_6 = Button(frame_corpo, text="/",width=6, height=2,bg=cor5,fg=cor2 , font=('Ivy 13 bold'),relief=RAISED , overrelief=RIDGE)
+b_6.place(x=0,y=0) #posições do eixo  
 
 janela.mainloop()

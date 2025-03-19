@@ -1,5 +1,5 @@
 #desempacotamento em chamadas 
-#de métodos e funções
+#de métodos e funções aula 87
 
 string = 'ABCD'
 lista = ['Maria','Helena',1,2,3,'Eduarda']
@@ -11,6 +11,8 @@ for nome in lista:
     print(nome,end= '') #dessa forma desempacoto em apenas uma linha
 
 print(" ")
+print(30*'-',"SEPARANDO CONTEUDO",'\n')
+
 print(*lista) #mostrando toda a lista em uma linha
 print(*tuple) #mostrando toda a tuple em apenas uma linha
 
@@ -22,3 +24,7 @@ salas = [
 #se precisar olhar oque tem na lista chamamos 
 # dessa forma pós  fica melhor de ver
 print(*salas, sep='\n')
+
+print(" ")
+print(30*'-',"SEPARANDO CONTEUDO",'\n')
+

@@ -1,3 +1,5 @@
+#criando uma lista e verificado se a cidade esta na lista
+
 cidades = ('pernambuco','rio de Janeiro','São Paulo')
 cidadeEscolhida = 'Pernambuco'.lower()
 
