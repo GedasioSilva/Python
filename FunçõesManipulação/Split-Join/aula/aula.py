@@ -29,7 +29,12 @@ palavras2 = frase2.split()
 for frasess in frase2.split():
     print(frasess)
 
-#join criar uma string vazia é onde é o atributo recebe a forma que vai separar a string
+#join criar uma string vazia é onde é o atributo recebe a 
+#forma que vai separar a string
 #dentro dos aspas simples coloco oque vai serapar a frase
 frases_unidas = ', '.join(lista_frases)
 print(frases_unidas)
+
+#posso utilizar o 
+frase3 = ' '.join('abc')
+print(frase3)

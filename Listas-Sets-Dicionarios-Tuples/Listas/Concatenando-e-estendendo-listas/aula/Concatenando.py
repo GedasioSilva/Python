@@ -6,7 +6,7 @@ numeros.extend(letras) #pegando números e estendendo com letras
 #final = numeros * 2 #imprimindo as litas 2 vezes
 print(numeros)
 
-print(10*"-",'Separando conteudo',10*'-')
+print(10*"-",'Separando conteudo parte 1',10*'-')
 #criando uma lista dentro de outra
 #quando divide cada conjunto de dados dentro do [] vira um index
 itens = [['item1','item2'],['item3','item4']]
@@ -14,13 +14,13 @@ print(itens[0]) #itens da posição zero item1 e item2
 print(itens[0][1]) #itens da posição 0 do index 1 item2
 
 
-print(10*"-",'Separando conteudo',10*'-')
+print(10*"-",'Separando conteudo Parte 2',10*'-')
 valores = [50,80,110,150,170]
 for x in valores:
     print(F'O valor final do Produto é: {x}')
     
 
-print(10*"-",'Separando conteudo',10*'-')
+print(10*"-",'Separando conteudo Parte 3',10*'-')
 
 #Verificando itens em uma lista
 cores = ['amarelo','verde','azul','vermelhor']
@@ -32,18 +32,3 @@ else:
     print("Não temos essa cor em Estoque")
 
 
-#trabalhando com lista dentro de lista
-
-salas = [
-    ['Maria','Helena'],
-    ['Elaine'],
-    ['Luiz','João','Eduarda',(0,10,20,30,40)]
-]
-print(salas[2][2]) #buscando o index Eduarda
-print(salas[2][3][2])#buscando na linha 3 o index 4 valor 2
-#no caso o retorno é o 20
-
-for sala in salas:
-    print(f'A sala é {sala}')
-    for aluno in sala:
-        print(aluno)

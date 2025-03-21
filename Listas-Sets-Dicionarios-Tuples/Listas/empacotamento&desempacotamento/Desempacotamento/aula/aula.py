@@ -13,6 +13,12 @@ for nome in lista:
 print(" ")
 print(30*'-',"SEPARANDO CONTEUDO",'\n')
 
+#desempacontando com o * 
+print(*string)
+
+print(" ")
+print(30*'-',"SEPARANDO CONTEUDO",'\n')
+
 print(*lista) #mostrando toda a lista em uma linha
 print(*tuple) #mostrando toda a tuple em apenas uma linha
 
