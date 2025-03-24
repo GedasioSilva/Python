@@ -1,4 +1,5 @@
-#Xargs é uma função onde seus argumentos não são definidos , podendo receber varios argumentos
+#Xargs é uma função onde seus argumentos não são definidos,
+#podendo receber varios argumentos
 
 def soma(*numeros):#com o * significa varios atributos
     resultado = 0 

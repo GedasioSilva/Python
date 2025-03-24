@@ -10,5 +10,11 @@ def executa(funcao,*args): #executa recee a função saudacao e diversos argumen
     return funcao(*args) #aqui mostra a saudacao recebe diversos argumentos
 
 print(
+    #to passando pra função executa a função saudacao e uma msg e um nome
     executa(saudacao,'bom dia','Gedasio')
+)
+
+print(
+    #to passando pra função executa a função saudacao e uma msg e um nome
+    executa(saudacao,'bom noite','Camila')
 )
