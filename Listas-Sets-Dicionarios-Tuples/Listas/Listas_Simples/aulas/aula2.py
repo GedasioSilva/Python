@@ -48,6 +48,9 @@ print("sort")
 cidades.sort()
 print(cidades)
 
+print("Sorted") #a diferença é que cria outra lista pra ordernar
+print(sorted(cidades))
+
 print(" ")
 print("Extendes")
 #extend(): Adiciona múltiplos elementos de outra lista ou iterável.

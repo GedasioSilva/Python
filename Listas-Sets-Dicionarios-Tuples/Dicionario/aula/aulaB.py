@@ -45,9 +45,11 @@ pessoa = {
 }
 
 #acessando os items do dicionario
+print(10*'-',"Separando Conteudo")
 print(pessoa['nome'])
 
-for chave,valor in pessoa.items():
+#utilizando o enumerate a chave começa no valor 1
+for chave,valor in enumerate(pessoa,start=1):
     print(chave,valor)
 
 print(30*'-')    

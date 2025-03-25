@@ -22,8 +22,17 @@ lista = [
     {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
     {'nome': 'Aline', 'sobrenome': 'Souza'},
 ]
+#a função recebe a lista
+#for item in lista e depois motra o item a ordem vem da lambda
+def exibir(lista):
+    for item in lista:
+        print(item)
+    print()    
 
-lista.sort(key=lambda item:item['nome'])
+#variavel l1 usa o metodo sorted ordernar a lista
+#key é uma função que recebe a lambda a lambeda tem uma variavel
+#item recebe o index nome
+l1 = sorted(lista, key=lambda item:item['nome'])
 
-for item in lista:
-    print(item)
+#mostrando a l1
+exibir(l1)

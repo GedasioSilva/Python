@@ -33,16 +33,7 @@ else:
 for chave,valor in pessoa.items():
     print(chave,valor)
 
-#copy é pra copiar os dados de um dicionario com outra
-d1 = {
-    'c1':1,
-    'c2':2,
-    'li':[0,1,2]
-}
-d2 = d1.copy() #d2 copia o d1 
-d2['c1'] = 1000 
-print(d1)
-print(d2)
+
 
 print(10*'-')
 #com o get a pessoa pega o valor especifico
