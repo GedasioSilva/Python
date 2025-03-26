@@ -15,3 +15,13 @@ print(pares)
 
 impares = [x for x in range(10) if x % 2 == 1]
 print(impares)
+
+
+#criar uma lista comprehension onde o usuario vai escolher qual
+#tabuada de multiplicação ele vai querer
+
+numeros = [1, 2, 3, 4, 5]
+multiplicados = [x * 10 for x in numeros]
+print(multiplicados)
+
+print("SEPANDO CONTEUDO")

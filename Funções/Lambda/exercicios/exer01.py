@@ -22,6 +22,7 @@ print(multiplicados)
 print(" ")
 #verificando se é impar ou par
 notas = [7,6,8,9]
+#quando passa uma lista o x recebe o valor de cada index da lista
 somanotas = list(map(lambda x: x % 2 == 0,notas))
 print(somanotas)
 
