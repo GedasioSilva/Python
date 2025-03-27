@@ -1,6 +1,6 @@
-# Valores Truthy e Falsy, Tipos Mutáveis e Imutáveis
-# Mutáveis [] {} set()
-# Imutáveis () "" 0 0.0 None False range(0, 10)
+#nessa aula vamos aprender os tipos de dados falsos e verdadeiros
+# Falsy são dados considerados falsos
+#Truthy São os dados considerados verdadeiros
 
 lista = [] #considerado false
 dicionario = {} #considerado false

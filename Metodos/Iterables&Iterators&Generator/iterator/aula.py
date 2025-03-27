@@ -1,12 +1,16 @@
 #Generator expression , Iterables e Iterators em Python 
-#precisa deter os valores 
-iterable = ['eu','tenho','__iter__']
+#intereitor precisa deter os valores 
 
+
+iterable = ['eu','tenho','__iter__']
 #a unica responsabilidade ele só sabe o proximo valor
 iterator = iterable.__iter__()
-print(next(iterator)) # no caso ele só sabe o proximo valor a função next vai atualizando os valor
+# no caso ele só sabe o proximo valor a função next vai atualizando os valor
+print(next(iterator)) 
+print(next(iterator)) 
+print(next(iterator)) 
 
-print(" ")
+print(20*"--")
 
 #iterables tem que ter o __iter__
 # o iterator tem que receber rum iterables
