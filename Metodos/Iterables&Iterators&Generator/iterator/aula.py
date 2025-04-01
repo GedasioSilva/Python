@@ -1,6 +1,7 @@
 #Generator expression , Iterables e Iterators em Python 
 #intereitor precisa deter os valores 
-
+#itrare é como se os numeros tivem em ordem e quando passamos o next
+#chama outro número que tava na ordem até acabar os valores só isso
 
 iterable = ['eu','tenho','__iter__']
 #a unica responsabilidade ele só sabe o proximo valor

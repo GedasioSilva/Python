@@ -1,9 +1,14 @@
 #aula 173 caso de duvida
+#definição 
+# A palavra-chave yield em Python transforma uma função
+# regular em uma função geradora
 
 def gerador_aninhado():
     yield 1
     yield 2
     yield 3
+
+
 
 def gerador_principal():
     yield 'A'
