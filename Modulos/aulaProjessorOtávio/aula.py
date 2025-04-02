@@ -11,7 +11,8 @@
 print('Este Módulo se chama',__name__) #quando o modulo é criado primeiro se chama main
 try:#verifica se o módulo foi entrado
     import pessoa
-    from pessoa import media 
+    from pessoa import media
+    print("O Módulo foi encontrado") 
 except ModuleNotFoundError:  #se não for encontrado mostra essa mensagem  
     print("Modulos não encontrados")
 
