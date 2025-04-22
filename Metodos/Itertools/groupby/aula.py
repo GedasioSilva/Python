@@ -12,4 +12,4 @@ alunos = [
     {'nome': 'Anderson', 'nota': 'C'},
 ]
 
-alunos.sort()
+alunos = ['a','b','c']
