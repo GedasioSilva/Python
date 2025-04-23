@@ -6,5 +6,5 @@ Se você quer se destacar sem precisar aprender front-end, foque nestas áreas:
 ✔ Cloud & DevOps → AWS (Lambda, S3, RDS), Docker, Kubernetes
 ✔ Testes & Segurança → PyTest, autenticação JWT/OAuth
 ✔ Arquitetura de Software → Microsserviços, Design Patterns, mensageria (RabbitMQ, Kafka)
-
+aprendendo o desenvolvimento
 Se tiver um bom conhecimento nessas áreas, não precisa saber front-end para conseguir um bom emprego no mercado de back-end. 🚀
