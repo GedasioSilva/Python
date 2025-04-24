@@ -13,3 +13,4 @@ package -> guarda diversos Módulos
 exemplo o Mercado onde guarda tudo
 Library -> guarda diversas  package 
 
+Python é uma linguagem muito boa e complexa
