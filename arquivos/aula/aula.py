@@ -1,6 +1,6 @@
 import os
 #caminho completo pra abrir esse arquivo coloca 2 \\ onde tiver 1 e fechar com 2
-caminho_arquivo = 'C:\\PYTHON\\Python\\arquivos\\'
+caminho_arquivo = 'C:\\PYTHON\\Python\\arquivos\\aula\\'
 caminho_arquivo += 'aula.txt' #comando pra adicionar uma arquivo que não existe
 #verificar se o caminho estar correto
 #print(caminho_arquivo)
@@ -47,11 +47,12 @@ with open(caminho_arquivo,'a+') as arquivo:
 
 """
 
-with open(caminho_arquivo,'w',encoding='utf8') as arquivo:
+with open(caminho_arquivo,'w+',encoding='utf8') as arquivo:
     arquivo.write('Atenção\n')
     arquivo.writelines(
         ('linha 1 \n','linha 2 \n')
     )
-
+    arquivo.seek(0,0)
+    print(arquivo.read())
 #os.remove(caminho_arquivo) #os.remove pra apagar o arquivo    
 #os.rename(caminho_arquivo,'aula2.txt') rename renomeira ou move
