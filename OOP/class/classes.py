@@ -1,6 +1,4 @@
 #class são utilizadas pra guardar dados e representar Objetos
-
-
 class Funcionarios:
     #pass  informa que a class é vazia
     nome ='Gedasio'
