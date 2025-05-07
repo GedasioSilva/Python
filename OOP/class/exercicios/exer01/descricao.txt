@@ -1,0 +1,1 @@
+aqui vou criar uma classe e salvar os dados dela em json e depois pegar os dados salvos em json de volta
